@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  height: 100vh;
+  background: #111;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline span {
+  display: inline-block;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+.stats {
+  margin-top: 20px;
+}
+
+.stat {
+  margin: 10px 0;
+  opacity: 0;
+}
+
+.car {
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.content {
+  height: 200vh;
+  background: #222;
+  color: white;
+  padding: 50px;
+}
